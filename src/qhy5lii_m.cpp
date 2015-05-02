@@ -1544,7 +1544,7 @@ int QHY5LII_M::GetChipInfo(double *chipw,double *chiph,int *imagew,int *imageh,d
     *imageh = 960;
     *pixelw = 3.75;
     *pixelh = 3.75;
-    *bpp = 16;
+    *bpp = cambits;
 
     return QHYCCD_SUCCESS;
 }
